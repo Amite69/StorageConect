@@ -1,0 +1,231 @@
+@media only screen and (min-width: 1081px) and (max-width: 1300px) {
+  .navbar {
+    padding: 1.5rem 1rem;
+  }
+  #navbarNav {
+    background: var(--primary-color);
+    margin-top: 45px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  button.navbar-toggler {
+    float: right;
+  }
+  .navbar .navbar-wrapper .navbar-nav .nav-item .nav-link {
+    margin-right: 0px;
+  }
+}
+/* Medium Layout: 1081px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1081px) {
+  .navbar {
+    padding: 1.5rem 1rem;
+  }
+  #navbarNav {
+    background: var(--primary-color);
+    margin-top: 45px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  button.navbar-toggler {
+    float: right;
+  }
+  .navbar .navbar-wrapper .navbar-nav .nav-item .nav-link {
+    margin-right: 0px;
+  }
+  .learn-sec .storage-content-wrapper p {
+    padding: 0px;
+  }
+  .query-card-wrapper {
+    padding: 45px 0px;
+  }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    padding: 1.5rem 1rem;
+  }
+  #navbarNav {
+    background: var(--primary-color);
+    margin-top: 45px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  button.navbar-toggler {
+    float: right;
+  }
+  .navbar .navbar-wrapper .navbar-nav .nav-item .nav-link {
+    margin-right: 0px;
+  }
+  .query-card-wrapper {
+    padding: 55px 50px;
+  }
+  .query-card-wrapper .query-card {
+    display: block;
+  }
+  .btn-content {
+    margin-bottom: 24px;
+  }
+  .learn-sec .storage-content-wrapper p {
+    padding: 0px;
+  }
+  .learn-sec .storage-content-wrapper {
+    padding: 0px 70px;
+  }
+  .care {
+    order: 2;
+  }
+  .banner-sec .banner-content-wrapper {
+    width: 100%;
+  }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    padding: 1.5rem 1rem;
+  }
+  #navbarNav {
+    background: var(--primary-color);
+    margin-top: 45px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  button.navbar-toggler {
+    float: right;
+  }
+  .navbar .navbar-wrapper .navbar-nav .nav-item .nav-link {
+    margin-right: 0px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 800;
+  }
+  h2 {
+    line-height: 30px;
+    font-size: 25px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .banner-sec {
+    padding-top: 0px;
+  }
+  .banner-sec .banner-content-wrapper {
+    width: 100%;
+    padding: 0px 15px;
+  }
+  .banner-sec .banner-content-wrapper .banner-content .button-wrapper {
+    display: block;
+  }
+  li.btn-wrapper.margin-right-10 {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .feature-sec .feature-content-wrapper p {
+    margin-top: 0px;
+  }
+  .feature-sec .feature-content-wrapper {
+    padding-bottom: 20px;
+  }
+  .feature-sec {
+    padding-top: 40px;
+  }
+  .storage-sec {
+    padding-top: 40px;
+  }
+  .storage-content-wrapper p {
+    font-size: 14px;
+  }
+  .storage-content-wrapper {
+    padding-bottom: 20px;
+  }
+  .btn-content .btn-wrapper .storage-btn.primary {
+    padding: 13px 24px;
+    font-size: 14px;
+  }
+  .do-sec {
+    padding: 0px;
+    height: 320px;
+  }
+  .btn-wrapper.margin-top-30 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .buy-sec.padding-top-80 {
+    padding-top: 40px;
+  }
+  .care {
+    order: 2;
+  }
+  .btn-content p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .storage-content-wrapper.margin-bottom-80 {
+    margin-bottom: 30px;
+  }
+  .btn-wrapper.card-btn.margin-top-50.margin-bottom-80 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .learn-sec {
+    padding-top: 40px;
+  }
+
+  .storage-content-wrapper h2 {
+    line-height: 30px;
+    font-size: 25px;
+  }
+  .learn-sec .storage-content-wrapper {
+    padding: 0px;
+  }
+  .learn-sec .storage-content-wrapper p {
+    padding: 0px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .btn-wrapper .storage-btn.big-btn {
+    padding: 16px 44px;
+    font-size: 14px;
+  }
+
+  .btn-content h2 {
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+  }
+  .query-card-wrapper .query-card .btn-content p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .query-card-wrapper .query-card {
+    display: block;
+  }
+  .query-card-wrapper {
+    padding: 20px 20px;
+  }
+  .news-letter-sec {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .mb-mg-b-20 {
+    margin-bottom: 20px;
+  }
+}

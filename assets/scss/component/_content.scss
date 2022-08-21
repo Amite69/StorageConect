@@ -1,0 +1,163 @@
+/*--------------------------------------------------------------
+# Content component
+--------------------------------------------------------------*/
+
+/*White text center content*/
+.storage-content-wrapper {
+  text-align: center;
+  padding-bottom: 60px;
+  h2 {
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  p {
+    color: #ffffff;
+    margin-top: 20px;
+  }
+}
+/*Blue text  content with button*/
+.btn-content {
+  h2 {
+    color: #021850;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  p {
+    color: #000103;
+    margin-top: 20px;
+  }
+  .btn-wrapper {
+    .storage-btn {
+      &.primary {
+        padding: 15px 30px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+/*==============================
+** Filter Dropdown
+==============================*/
+.filter-dropdown-wrapper {
+  background-color: #ffffff;
+  box-shadow: 15px 15px 40px rgba(56, 46, 48, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  flex: 100%;
+  width: 100%;
+  .filter-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+/*==============================
+** Filter Text
+==============================*/
+.filter-dropdown-text {
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    span {
+      font-weight: bold;
+    }
+  }
+}
+/*==============================
+** Filter Button
+==============================*/
+.filter-dropdown-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-dropdown-button-title {
+  margin-right: 14px;
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+  }
+}
+/*==============================
+** Filter Dropdown Selector
+==============================*/
+.filter-dropdown-selector {
+  position: relative;
+  font-family: Arial;
+  & select {
+    display: none;
+  }
+  .select-items {
+    position: absolute;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    transform: translate3d(0, 40px, 0);
+    opacity: 1;
+    visibility: visible;
+    & div {
+      color: #382e30;
+      font-size: 14px;
+      padding: 8px;
+      border: 1px solid transparent;
+      border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+      cursor: pointer;
+      user-select: none;
+      box-sizing: border-box;
+      border-radius: 2px;
+      transition: all 0.5s;
+      &:hover {
+        background-color: var(--primary-color);
+        color: #ffffff;
+      }
+    }
+  }
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    transition: all 0.5s;
+    transform: translate3d(0, 0, 0);
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+  }
+}
+.select-selected {
+  background-color: #ffffff;
+  color: #382e30;
+  font-size: 14px;
+  padding: 8px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  &:after {
+    position: absolute;
+    content: "";
+    top: 11px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: solid var(--primary-color);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+  }
+  &.select-arrow-active {
+    &:after {
+      top: 14px;
+      transform: rotate(-135deg);
+    }
+  }
+}

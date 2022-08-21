@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------
+# Button 
+--------------------------------------------------------------*/
+.btn-wrapper {
+  &.card-btn {
+    text-align: center;
+  }
+  .storage-btn {
+    padding: 12px 30px;
+    color: var(--blue);
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+    &.nav-btn {
+      padding: 5px 12px;
+    }
+
+    &.white {
+      background: var(--white);
+      color: #000103b2;
+      &:hover {
+        color: var(--blue);
+        background: var(--secondary-color);
+      }
+    }
+    &.big-btn {
+      padding: 20px 50px;
+      font-size: 18px;
+    }
+
+    &.primary {
+      color: var(--white);
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 20px;
+      background: var(--primary-color);
+      border: 1px solid var(--primary-color);
+      margin-top: 10px;
+
+      &:hover {
+        border: 1px solid var(--primary-color);
+        color: var(--primary-color);
+        background: var(--white);
+      }
+    }
+
+    &:hover {
+      border: 2px solid var(--main-color-one);
+      color: var(--main-color-one);
+      background: var(--white);
+    }
+  }
+}

@@ -1,0 +1,30 @@
+/*==============================
+** Main Scss
+==============================*/
+@import "main/_variables";
+@import "main/_global";
+@import "main/_mixins";
+
+/*=========================
+** Sections Scss File
+=========================*/
+@import "section/_navbar";
+@import "section/_banner";
+@import "section/_feature";
+@import "section/_selfsotrage";
+@import "section/_do";
+@import "section/_buy";
+@import "section/_learn";
+@import "section/_newsletter";
+@import "section/_footer";
+
+/*=========================
+** Component  Scss File
+=========================*/
+@import "component/_button";
+@import "component/_card";
+@import "component/_content";
+@import "component/_slider";
+/*=========================
+** Responsive Scss File
+=========================*/
